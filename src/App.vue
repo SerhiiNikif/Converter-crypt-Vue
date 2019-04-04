@@ -63,14 +63,17 @@
       chooseBTC: function () {
         this.coin = 'BTC';
         this.arr = this.info.BTC;
+        this.message = null;
       },
       chooseETH: function () {
         this.coin = 'ETH';
-        this.arr = this.info.ETH
+        this.arr = this.info.ETH;
+        this.message = null;
       },
       chooseXRP: function() {
         this.coin = 'XRP';
-        this.arr = this.info.XRP
+        this.arr = this.info.XRP;
+        this.message = null;
       },
       toUan: function () {
         let res = this.inputVal * this.arr.UAH;
