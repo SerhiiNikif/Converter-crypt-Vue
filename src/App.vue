@@ -51,7 +51,7 @@
         coin: '',
         UAH: 'UAH',
         USD: 'USD',
-        RUB: 'RUB'
+        RUB: 'RUB',
       }
     },
     mounted() {
