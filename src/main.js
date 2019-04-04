@@ -7,9 +7,9 @@ import BlockBtc from './components/BlockBtc.vue';
 import Calculation from './components/Calculation.vue';
 
   Vue.component('BlockXrp', BlockXrp);
-Vue.component('BlockEth', BlockEth);
-Vue.component('BlockBtc', BlockBtc);
-Vue.component('Calculation', Calculation);
+  Vue.component('BlockEth', BlockEth);
+  Vue.component('BlockBtc', BlockBtc);
+  Vue.component('Calculation', Calculation);
 
 new Vue({
   el: '#Converter',
