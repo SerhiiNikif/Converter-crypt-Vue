@@ -12,6 +12,6 @@ Vue.component('BlockBtc', BlockBtc);
 Vue.component('Calculation', Calculation);
 
 new Vue({
-  el: '#training',
+  el: '#Converter',
   render: h => h(App)
 })
